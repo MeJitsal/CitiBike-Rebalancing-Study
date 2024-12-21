@@ -137,9 +137,9 @@ p <-
   ) +
   labs(x = "", y = "")
 
-# The next line of code will save the graphic as a pdf onto your working
+# The next line of code will save the graphic as a png
 # directory so that you can separately open and zoom in while reviewing it.
-ggsave("activity_balance2019.pdf", plot = p, width = 8, height = 40)
+ggsave("activity_balance2019.png", plot = p, width = 8, height = 40)
 
 p
 ```
